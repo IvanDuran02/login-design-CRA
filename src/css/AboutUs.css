@@ -1,0 +1,51 @@
+.aboutus__container {
+  background-image: url(../assets/16_9-wallpaper2.jpg);
+  background-size: cover;
+  display: flex;
+  place-items: center;
+  height: 10vh;
+  border-radius: 20px;
+  margin: 50px 50px 50px 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  flex: 1;
+}
+
+.link:hover {
+  color: red;
+}
+.aboutus__container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.container {
+  background-image: url(../assets/4kcosmos.jpg);
+  background-size: cover;
+  display: grid;
+  height: 100vh;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.txt {
+  flex-wrap: wrap;
+  width: 80vh;
+  margin-left: 20vh;
+  margin-bottom: 50vh;
+  font-size: xx-large;
+  color: white;
+}

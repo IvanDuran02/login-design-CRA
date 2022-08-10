@@ -1,0 +1,8 @@
+.custom__btn {
+  outline: none;
+  font-weight: bold;
+}
+
+.custom__btn:hover {
+  color: white;
+}
